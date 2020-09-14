@@ -8,11 +8,11 @@ class MainTest {
 
     @Test
     void main() {
-        Planet p = new Planet(10000.12,"Earth",1);
+        Planet p = new Planet(10000,"Earth",3);
         assertAll("Testing af object oprettelse",
-                () -> assertEquals(10000.12,p.getRadiusSize()),
+                () -> assertEquals(10000,p.getRadiusSize()),
                 () -> assertEquals("Earth",p.getName()),
-                () -> assertEquals(1,p.getMoons())
+                () -> assertEquals(3,p.getMoons())
         );
     }
 }

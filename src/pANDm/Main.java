@@ -3,8 +3,8 @@ package pANDm;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        Planet p = new Planet(10000.12,"Earth",1);
-        System.out.println(p);
+        // Gider ikke at registrere dette som værende "coveraged" selvom at dette er den
+        // første test i "MainTest"
+        Planet p = new Planet(10000,"Earth",3);
     }
 }

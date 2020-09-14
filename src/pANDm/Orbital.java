@@ -1,19 +1,19 @@
 package pANDm;
 
 public abstract class Orbital {
-    private double RadiusSize;
+    private int RadiusSize;
     private String name;
 
-    public Orbital(double radiusSize, String name) {
+    public Orbital(int radiusSize, String name) {
         RadiusSize = radiusSize;
         this.name = name;
     }
 
-    public double getRadiusSize() {
+    public int getRadiusSize() {
         return RadiusSize;
     }
 
-    public void setRadiusSize(double radiusSize) {
+    public void setRadiusSize(int radiusSize) {
         RadiusSize = radiusSize;
     }
 
